@@ -1,0 +1,41 @@
+.container-fluid {
+   height: 400px;
+    background-image: url(../../../assets/images/m.jpg);
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    25%   {    background-image: url(../../../assets/images/f.jpg);
+    }
+    50%  {    background-image: url(../../../assets/images/Doctoclic-back.png);
+    }
+}
+
+/* Standard syntax */
+@keyframes example {
+    25%   {    background-image: url(../../../assets/images/f.jpg);
+    }
+    50%  {    background-image: url(../../../assets/images/Doctoclic-back.png);
+    }
+}
+select{
+    outline: none;
+    border: none;
+}
+.form-group{
+    height: 50px;
+    background-color: white;
+    text-align: center;
+}
+.row{
+    justify-content: center;
+    padding-top: 150px;
+}
